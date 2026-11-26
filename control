@@ -1,0 +1,12 @@
+Package: com.banshengnianhua.theseusmenu
+Name: 编辑菜单
+Version: 1.0
+Architecture: iphoneos-arm64e
+Description: 如题
+Depends: mobilesubstrate, firmware (>= 16.0)
+Section: Tweaks
+Maintainer: 半生年华
+Author: 半生年华
+Tag: purpose::extension
+Conflicts: com.ning.theseusmenu
+Replaces: com.ning.theseusmenu

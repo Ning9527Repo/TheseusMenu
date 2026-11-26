@@ -1,0 +1,16 @@
+{
+  "revision": "0.2.6",
+  "source_check": "passed",
+  "swift_syntax_parse": "passed",
+  "javascript_syntax_check": "passed",
+  "gap_model": "7 cases and 200 repeated passes",
+  "native_slot_model": "2 cases and 31 logged slot samples",
+  "adaptive_geometry_model": "150 cases and 15000 repeated passes",
+  "trace_replay": "34 old-version menu frames at calculated 39.84pt; 38 arrow circle placements; 7 transition fallbacks; 17 visible paste samples",
+  "native_ios_sdk_typecheck": false,
+  "native_build_executed": false,
+  "device_validation_executed": false,
+  "paste_internal_baseline_measured": false,
+  "capsule_geometry_model": "2730 samples, not UIKit rendering",
+  "capsule_restore": "024 whole-effect mask restored; 025 geometry unchanged"
+}

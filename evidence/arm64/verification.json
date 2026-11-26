@@ -1,0 +1,1135 @@
+{
+  "status": "passed",
+  "package": "com.banshengnianhua.theseusmenu_1.0_iphoneos-arm64.deb",
+  "sha256": "acf4f08a6b1b7d1ae6e2857bbc2886ee3b52a022c3ab09d4149a21dd2814defb",
+  "bytes": 64946,
+  "variant": "arm64",
+  "control": {
+    "Package": "com.banshengnianhua.theseusmenu",
+    "Name": "\u7f16\u8f91\u83dc\u5355",
+    "Version": "1.0",
+    "Architecture": "iphoneos-arm64",
+    "Description": "\u5982\u9898",
+    "Depends": "firmware (>= 16.0), mobilesubstrate",
+    "Section": "Tweaks",
+    "Maintainer": "\u534a\u751f\u5e74\u534e",
+    "Author": "\u534a\u751f\u5e74\u534e",
+    "Tag": "purpose::extension",
+    "Conflicts": "com.ning.theseusmenu",
+    "Replaces": "com.ning.theseusmenu",
+    "Homepage": "https://github.com/valzevul/Theseus"
+  },
+  "mach_o": [
+    {
+      "cpu": "0x100000c",
+      "subtype": "0x00000000",
+      "filetype": 6,
+      "install_name": "@rpath/TheseusMenu.dylib",
+      "dependencies": [
+        "/usr/lib/libc++.1.dylib",
+        "/System/Library/Frameworks/Foundation.framework/Foundation",
+        "/System/Library/Frameworks/UIKit.framework/UIKit",
+        "/System/Library/Frameworks/QuartzCore.framework/QuartzCore",
+        "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics",
+        "/usr/lib/libSystem.B.dylib",
+        "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+        "/usr/lib/libobjc.A.dylib",
+        "/usr/lib/swift/libswiftCore.dylib",
+        "/usr/lib/swift/libswiftCoreFoundation.dylib",
+        "/usr/lib/swift/libswiftCoreGraphics.dylib",
+        "/usr/lib/swift/libswiftCoreImage.dylib",
+        "/usr/lib/swift/libswiftDarwin.dylib",
+        "/usr/lib/swift/libswiftDataDetection.dylib",
+        "/usr/lib/swift/libswiftDispatch.dylib",
+        "/usr/lib/swift/libswiftFileProvider.dylib",
+        "/usr/lib/swift/libswiftMetal.dylib",
+        "/usr/lib/swift/libswiftObjectiveC.dylib",
+        "/usr/lib/swift/libswiftQuartzCore.dylib",
+        "/usr/lib/swift/libswiftXPC.dylib",
+        "/usr/lib/swift/libswiftos.dylib",
+        "/usr/lib/swift/libswiftUIKit.dylib"
+      ],
+      "rpaths": [
+        "/usr/lib/swift"
+      ],
+      "signature": {
+        "offset": 195216,
+        "bytes": 18656
+      },
+      "imports": [
+        {
+          "symbol": "_$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ",
+          "dependency": "/System/Library/Frameworks/Foundation.framework/Foundation"
+        },
+        {
+          "symbol": "_$s10Foundation12NotificationVMa",
+          "dependency": "/System/Library/Frameworks/Foundation.framework/Foundation"
+        },
+        {
+          "symbol": "_$s12CoreGraphics7CGFloatVMn",
+          "dependency": "/usr/lib/swift/libswiftCoreFoundation.dylib"
+        },
+        {
+          "symbol": "_$s12CoreGraphics7CGFloatVN",
+          "dependency": "/usr/lib/swift/libswiftCoreFoundation.dylib"
+        },
+        {
+          "symbol": "_$s8Dispatch0A13WorkItemFlagsVMa",
+          "dependency": "/usr/lib/swift/libswiftDispatch.dylib"
+        },
+        {
+          "symbol": "_$s8Dispatch0A13WorkItemFlagsVMn",
+          "dependency": "/usr/lib/swift/libswiftDispatch.dylib"
+        },
+        {
+          "symbol": "_$s8Dispatch0A13WorkItemFlagsVs10SetAlgebraAAMc",
+          "dependency": "/usr/lib/swift/libswiftDispatch.dylib"
+        },
+        {
+          "symbol": "_$s8Dispatch0A4TimeV3nowACyFZ",
+          "dependency": "/usr/lib/swift/libswiftDispatch.dylib"
+        },
+        {
+          "symbol": "_$s8Dispatch0A4TimeVMa",
+          "dependency": "/usr/lib/swift/libswiftDispatch.dylib"
+        },
+        {
+          "symbol": "_$s8Dispatch0A8WorkItemC5flags5blockAcA0abC5FlagsV_yyXBtcfc",
+          "dependency": "/usr/lib/swift/libswiftDispatch.dylib"
+        },
+        {
+          "symbol": "_$s8Dispatch0A8WorkItemC6cancelyyFTj",
+          "dependency": "/usr/lib/swift/libswiftDispatch.dylib"
+        },
+        {
+          "symbol": "_$s8Dispatch0A8WorkItemCMa",
+          "dependency": "/usr/lib/swift/libswiftDispatch.dylib"
+        },
+        {
+          "symbol": "_$s8Dispatch0A8WorkItemCMn",
+          "dependency": "/usr/lib/swift/libswiftDispatch.dylib"
+        },
+        {
+          "symbol": "_$s8Dispatch1poiyAA0A4TimeVAD_SdtF",
+          "dependency": "/usr/lib/swift/libswiftDispatch.dylib"
+        },
+        {
+          "symbol": "_$sBOWV",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$sBoWV",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$sSD8_VariantV9removeAll15keepingCapacityySb_tF",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$sSD8_VariantVMn",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$sSON",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$sSOSHsWP",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF",
+          "dependency": "/System/Library/Frameworks/Foundation.framework/Foundation"
+        },
+        {
+          "symbol": "_$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ",
+          "dependency": "/System/Library/Frameworks/Foundation.framework/Foundation"
+        },
+        {
+          "symbol": "_$sSS6appendyySSF",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$sSSN",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ",
+          "dependency": "/System/Library/Frameworks/Foundation.framework/Foundation"
+        },
+        {
+          "symbol": "_$sSa28_allocateBufferUninitialized15minimumCapacitys06_ArrayB0VyxGSi_tFZ",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$sSayxGSTsMc",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$sSd11descriptionSSvg",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$sSh15minimumCapacityShyxGSi_tcfC",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$sSo17CGAffineTransformV12CoreGraphicsE2eeoiySbAB_ABtFZ",
+          "dependency": "/usr/lib/swift/libswiftCoreGraphics.dylib"
+        },
+        {
+          "symbol": "_$sSo17OS_dispatch_queueC8DispatchE10asyncAfter8deadline7executeyAC0D4TimeV_AC0D8WorkItemCtF",
+          "dependency": "/usr/lib/swift/libswiftDispatch.dylib"
+        },
+        {
+          "symbol": "_$sSo17OS_dispatch_queueC8DispatchE4mainABvgZ",
+          "dependency": "/usr/lib/swift/libswiftDispatch.dylib"
+        },
+        {
+          "symbol": "_$sSo8NSObjectC10ObjectiveCE2eeoiySbAB_ABtFZ",
+          "dependency": "/usr/lib/swift/libswiftObjectiveC.dylib"
+        },
+        {
+          "symbol": "_$ss018_bridgeAnyObjectToB0yypyXlSgF",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$ss11_SetStorageC4copy8originalAByxGs05__RawaB0C_tFZ",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$ss11_SetStorageC6resize8original8capacity4moveAByxGs05__RawaB0C_SiSbtFZ",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$ss11_SetStorageCMn",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$ss11_StringGutsV4growyySiF",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$ss12_ArrayBufferV18_typeCheckSlowPathyySiF",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$ss17_NativeDictionaryV12ensureUnique02isD08capacityS2b_SitF",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$ss17_NativeDictionaryV15uncheckedRemove2at8isUniquex3key_q_5valuets10_HashTableV6BucketV_SbtF",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$ss17_NativeDictionaryVMn",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$ss17_assertionFailure__5flagss5NeverOs12StaticStringV_SSs6UInt32VtF",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$ss18_CocoaArrayWrapperV13_copyContents8subRange12initializingSpyyXlGSnySiG_AFtF",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$ss18_CocoaArrayWrapperV8endIndexSivg",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$ss18_CocoaArrayWrapperVyyXlSicig",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$ss22_minimumMergeRunLengthyS2iF",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$ss23_ContiguousArrayStorageCMn",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$ss50ELEMENT_TYPE_OF_SET_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$ss6HasherV5_hash4seed_S2i_s6UInt64VtFZ",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$ss6UInt64VMn",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$ss9_typeName_9qualifiedSSypXp_SbtF",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_$sypN",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_CGRectContainsPoint",
+          "dependency": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+        },
+        {
+          "symbol": "_CGRectEqualToRect",
+          "dependency": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+        },
+        {
+          "symbol": "_CGRectGetHeight",
+          "dependency": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+        },
+        {
+          "symbol": "_CGRectGetMaxX",
+          "dependency": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+        },
+        {
+          "symbol": "_CGRectGetMaxY",
+          "dependency": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+        },
+        {
+          "symbol": "_CGRectGetMidX",
+          "dependency": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+        },
+        {
+          "symbol": "_CGRectGetMidY",
+          "dependency": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+        },
+        {
+          "symbol": "_CGRectGetMinX",
+          "dependency": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+        },
+        {
+          "symbol": "_CGRectGetMinY",
+          "dependency": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+        },
+        {
+          "symbol": "_CGRectGetWidth",
+          "dependency": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+        },
+        {
+          "symbol": "_CGRectInset",
+          "dependency": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+        },
+        {
+          "symbol": "_CGRectIntersection",
+          "dependency": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+        },
+        {
+          "symbol": "_CGRectIntersectsRect",
+          "dependency": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+        },
+        {
+          "symbol": "_CGRectIsEmpty",
+          "dependency": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+        },
+        {
+          "symbol": "_CGRectIsInfinite",
+          "dependency": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+        },
+        {
+          "symbol": "_CGRectIsNull",
+          "dependency": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+        },
+        {
+          "symbol": "_CGRectNull",
+          "dependency": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+        },
+        {
+          "symbol": "_CGRectOffset",
+          "dependency": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+        },
+        {
+          "symbol": "_CGRectUnion",
+          "dependency": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+        },
+        {
+          "symbol": "_NSClassFromString",
+          "dependency": "/System/Library/Frameworks/Foundation.framework/Foundation"
+        },
+        {
+          "symbol": "_NSForegroundColorAttributeName",
+          "dependency": "/System/Library/Frameworks/UIKit.framework/UIKit"
+        },
+        {
+          "symbol": "_NSSelectorFromString",
+          "dependency": "/System/Library/Frameworks/Foundation.framework/Foundation"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_CAShapeLayer",
+          "dependency": "/System/Library/Frameworks/QuartzCore.framework/QuartzCore"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_CATransaction",
+          "dependency": "/System/Library/Frameworks/QuartzCore.framework/QuartzCore"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_NSArray",
+          "dependency": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_NSAttributedString",
+          "dependency": "/System/Library/Frameworks/Foundation.framework/Foundation"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_NSConstantArray",
+          "dependency": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_NSConstantIntegerNumber",
+          "dependency": "/System/Library/Frameworks/Foundation.framework/Foundation"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_NSHashTable",
+          "dependency": "/System/Library/Frameworks/Foundation.framework/Foundation"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_NSMutableAttributedString",
+          "dependency": "/System/Library/Frameworks/Foundation.framework/Foundation"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_NSMutableOrderedSet",
+          "dependency": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_NSNotificationCenter",
+          "dependency": "/System/Library/Frameworks/Foundation.framework/Foundation"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_NSObject",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_NSOperationQueue",
+          "dependency": "/System/Library/Frameworks/Foundation.framework/Foundation"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_NSProcessInfo",
+          "dependency": "/System/Library/Frameworks/Foundation.framework/Foundation"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_NSString",
+          "dependency": "/System/Library/Frameworks/Foundation.framework/Foundation"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_NSThread",
+          "dependency": "/System/Library/Frameworks/Foundation.framework/Foundation"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_OS_dispatch_queue",
+          "dependency": "/usr/lib/libSystem.B.dylib"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_UIApplication",
+          "dependency": "/System/Library/Frameworks/UIKit.framework/UIKit"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_UIBezierPath",
+          "dependency": "/System/Library/Frameworks/UIKit.framework/UIKit"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_UIBlurEffect",
+          "dependency": "/System/Library/Frameworks/UIKit.framework/UIKit"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_UICollectionViewCell",
+          "dependency": "/System/Library/Frameworks/UIKit.framework/UIKit"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_UIColor",
+          "dependency": "/System/Library/Frameworks/UIKit.framework/UIKit"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_UIImageView",
+          "dependency": "/System/Library/Frameworks/UIKit.framework/UIKit"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_UILabel",
+          "dependency": "/System/Library/Frameworks/UIKit.framework/UIKit"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_UIPasteControl",
+          "dependency": "/System/Library/Frameworks/UIKit.framework/UIKit"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_UIScreen",
+          "dependency": "/System/Library/Frameworks/UIKit.framework/UIKit"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_UIView",
+          "dependency": "/System/Library/Frameworks/UIKit.framework/UIKit"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_UIVisualEffectView",
+          "dependency": "/System/Library/Frameworks/UIKit.framework/UIKit"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_UIWindow",
+          "dependency": "/System/Library/Frameworks/UIKit.framework/UIKit"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$_UIWindowScene",
+          "dependency": "/System/Library/Frameworks/UIKit.framework/UIKit"
+        },
+        {
+          "symbol": "_OBJC_CLASS_$__TtCs12_SwiftObject",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_OBJC_METACLASS_$_NSObject",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_OBJC_METACLASS_$_UIView",
+          "dependency": "/System/Library/Frameworks/UIKit.framework/UIKit"
+        },
+        {
+          "symbol": "_OBJC_METACLASS_$__TtCs12_SwiftObject",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_UIAccessibilityIsReduceTransparencyEnabled",
+          "dependency": "/System/Library/Frameworks/UIKit.framework/UIKit"
+        },
+        {
+          "symbol": "_UIApplicationDidBecomeActiveNotification",
+          "dependency": "/System/Library/Frameworks/UIKit.framework/UIKit"
+        },
+        {
+          "symbol": "_UIApplicationDidEnterBackgroundNotification",
+          "dependency": "/System/Library/Frameworks/UIKit.framework/UIKit"
+        },
+        {
+          "symbol": "_UIApplicationWillEnterForegroundNotification",
+          "dependency": "/System/Library/Frameworks/UIKit.framework/UIKit"
+        },
+        {
+          "symbol": "_UISceneDidActivateNotification",
+          "dependency": "/System/Library/Frameworks/UIKit.framework/UIKit"
+        },
+        {
+          "symbol": "__Block_copy",
+          "dependency": "/usr/lib/libSystem.B.dylib"
+        },
+        {
+          "symbol": "__Block_release",
+          "dependency": "/usr/lib/libSystem.B.dylib"
+        },
+        {
+          "symbol": "__NSConcreteGlobalBlock",
+          "dependency": "/usr/lib/libSystem.B.dylib"
+        },
+        {
+          "symbol": "__NSConcreteStackBlock",
+          "dependency": "/usr/lib/libSystem.B.dylib"
+        },
+        {
+          "symbol": "___CFConstantStringClassReference",
+          "dependency": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+        },
+        {
+          "symbol": "___chkstk_darwin",
+          "dependency": "/usr/lib/libSystem.B.dylib"
+        },
+        {
+          "symbol": "___kCFBooleanTrue",
+          "dependency": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+        },
+        {
+          "symbol": "___stack_chk_fail",
+          "dependency": "/usr/lib/libSystem.B.dylib"
+        },
+        {
+          "symbol": "___stack_chk_guard",
+          "dependency": "/usr/lib/libSystem.B.dylib"
+        },
+        {
+          "symbol": "__dispatch_main_q",
+          "dependency": "/usr/lib/libSystem.B.dylib"
+        },
+        {
+          "symbol": "__objc_empty_cache",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "__swiftEmptyArrayStorage",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "__swift_FORCE_LOAD_$_swiftCoreFoundation",
+          "dependency": "/usr/lib/swift/libswiftCoreFoundation.dylib"
+        },
+        {
+          "symbol": "__swift_FORCE_LOAD_$_swiftCoreGraphics",
+          "dependency": "/usr/lib/swift/libswiftCoreFoundation.dylib"
+        },
+        {
+          "symbol": "__swift_FORCE_LOAD_$_swiftCoreImage",
+          "dependency": "/usr/lib/swift/libswiftCoreImage.dylib"
+        },
+        {
+          "symbol": "__swift_FORCE_LOAD_$_swiftDarwin",
+          "dependency": "/usr/lib/swift/libswiftDarwin.dylib"
+        },
+        {
+          "symbol": "__swift_FORCE_LOAD_$_swiftDataDetection",
+          "dependency": "/usr/lib/swift/libswiftDataDetection.dylib"
+        },
+        {
+          "symbol": "__swift_FORCE_LOAD_$_swiftDispatch",
+          "dependency": "/usr/lib/swift/libswiftDispatch.dylib"
+        },
+        {
+          "symbol": "__swift_FORCE_LOAD_$_swiftFileProvider",
+          "dependency": "/usr/lib/swift/libswiftFileProvider.dylib"
+        },
+        {
+          "symbol": "__swift_FORCE_LOAD_$_swiftFoundation",
+          "dependency": "/System/Library/Frameworks/Foundation.framework/Foundation"
+        },
+        {
+          "symbol": "__swift_FORCE_LOAD_$_swiftMetal",
+          "dependency": "/usr/lib/swift/libswiftMetal.dylib"
+        },
+        {
+          "symbol": "__swift_FORCE_LOAD_$_swiftObjectiveC",
+          "dependency": "/usr/lib/swift/libswiftObjectiveC.dylib"
+        },
+        {
+          "symbol": "__swift_FORCE_LOAD_$_swiftQuartzCore",
+          "dependency": "/usr/lib/swift/libswiftQuartzCore.dylib"
+        },
+        {
+          "symbol": "__swift_FORCE_LOAD_$_swiftUIKit",
+          "dependency": "/usr/lib/swift/libswiftUIKit.dylib"
+        },
+        {
+          "symbol": "__swift_FORCE_LOAD_$_swiftXPC",
+          "dependency": "/usr/lib/swift/libswiftXPC.dylib"
+        },
+        {
+          "symbol": "__swift_FORCE_LOAD_$_swiftos",
+          "dependency": "/usr/lib/swift/libswiftos.dylib"
+        },
+        {
+          "symbol": "__swift_stdlib_reportUnimplementedInitializer",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_class_addMethod",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_class_getInstanceMethod",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_dispatch_after",
+          "dependency": "/usr/lib/libSystem.B.dylib"
+        },
+        {
+          "symbol": "_dispatch_async",
+          "dependency": "/usr/lib/libSystem.B.dylib"
+        },
+        {
+          "symbol": "_dispatch_time",
+          "dependency": "/usr/lib/libSystem.B.dylib"
+        },
+        {
+          "symbol": "_dlopen",
+          "dependency": "/usr/lib/libSystem.B.dylib"
+        },
+        {
+          "symbol": "_dlsym",
+          "dependency": "/usr/lib/libSystem.B.dylib"
+        },
+        {
+          "symbol": "_malloc_size",
+          "dependency": "/usr/lib/libSystem.B.dylib"
+        },
+        {
+          "symbol": "_memcpy",
+          "dependency": "/usr/lib/libSystem.B.dylib"
+        },
+        {
+          "symbol": "_memmove",
+          "dependency": "/usr/lib/libSystem.B.dylib"
+        },
+        {
+          "symbol": "_method_getImplementation",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_method_getTypeEncoding",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_method_setImplementation",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_allocWithZone",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_autoreleaseReturnValue",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_claimAutoreleasedReturnValue",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_copyWeak",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_destroyWeak",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_enumerationMutation",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_getAssociatedObject",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_initWeak",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_loadWeakRetained",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_msgSend",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_msgSendSuper2",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_opt_class",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_opt_isKindOfClass",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_opt_respondsToSelector",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_opt_self",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_release",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_release_x1",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_release_x19",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_release_x2",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_release_x20",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_release_x21",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_release_x22",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_release_x23",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_release_x24",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_release_x25",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_release_x26",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_release_x27",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_release_x28",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_release_x8",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_release_x9",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_retain",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_retainAutorelease",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_retainAutoreleasedReturnValue",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_retain_x19",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_retain_x2",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_retain_x20",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_retain_x21",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_retain_x22",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_retain_x23",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_retain_x24",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_retain_x25",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_retain_x26",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_retain_x28",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_retain_x8",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_retain_x9",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_setAssociatedObject",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_objc_unsafeClaimAutoreleasedReturnValue",
+          "dependency": "/usr/lib/libobjc.A.dylib"
+        },
+        {
+          "symbol": "_swift_allocObject",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_arrayAssignWithTake",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_arrayDestroy",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_arrayInitWithCopy",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_beginAccess",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_bridgeObjectRelease",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_bridgeObjectRelease_n",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_bridgeObjectRetain",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_bridgeObjectRetain_n",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_deallocClassInstance",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_deallocObject",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_deletedMethodError",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_dynamicCast",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_dynamicCastObjCClass",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_endAccess",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_getForeignTypeMetadata",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_getObjCClassMetadata",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_getObjectType",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_getTypeByMangledNameInContext",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_getTypeByMangledNameInContextInMetadataState",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_getWitnessTable",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_initStackObject",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_isUniquelyReferenced_nonNull_bridgeObject",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_isUniquelyReferenced_nonNull_native",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_release",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_release_n",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_retain",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_setDeallocating",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_unknownObjectRelease",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_unknownObjectRetain",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_unknownObjectWeakAssign",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_unknownObjectWeakDestroy",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_unknownObjectWeakInit",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        },
+        {
+          "symbol": "_swift_unknownObjectWeakLoadStrong",
+          "dependency": "/usr/lib/swift/libswiftCore.dylib"
+        }
+      ],
+      "deployment": "16.0",
+      "platform": "iOS",
+      "native_strict_signature": {
+        "command": [
+          "codesign",
+          "--verify",
+          "--strict",
+          "--verbose=4",
+          "/var/folders/lg/cq0941_52_z5l770xgj32v1r0000gn/T/theseusmenu-final-3maau83t/var/jb/Library/MobileSubstrate/DynamicLibraries/TheseusMenu.dylib"
+        ],
+        "exit": 0,
+        "stdout": "",
+        "stderr": "/var/folders/lg/cq0941_52_z5l770xgj32v1r0000gn/T/theseusmenu-final-3maau83t/var/jb/Library/MobileSubstrate/DynamicLibraries/TheseusMenu.dylib: valid on disk\n/var/folders/lg/cq0941_52_z5l770xgj32v1r0000gn/T/theseusmenu-final-3maau83t/var/jb/Library/MobileSubstrate/DynamicLibraries/TheseusMenu.dylib: satisfies its Designated Requirement\n"
+      },
+      "path": "var/jb/Library/MobileSubstrate/DynamicLibraries/TheseusMenu.dylib",
+      "sha256": "e0b5d41cf030ba11d614d25afbe3dd65de9c51530cc5b9d8b431a7a41e145f29"
+    }
+  ],
+  "members": [
+    {
+      "path": "var",
+      "size": 0,
+      "mode": "0o755",
+      "type": "directory"
+    },
+    {
+      "path": "var/jb",
+      "size": 0,
+      "mode": "0o755",
+      "type": "directory"
+    },
+    {
+      "path": "var/jb/Library",
+      "size": 0,
+      "mode": "0o755",
+      "type": "directory"
+    },
+    {
+      "path": "var/jb/Library/MobileSubstrate",
+      "size": 0,
+      "mode": "0o755",
+      "type": "directory"
+    },
+    {
+      "path": "var/jb/Library/MobileSubstrate/DynamicLibraries",
+      "size": 0,
+      "mode": "0o755",
+      "type": "directory"
+    },
+    {
+      "path": "var/jb/Library/MobileSubstrate/DynamicLibraries/TheseusMenu.dylib",
+      "size": 213872,
+      "mode": "0o755",
+      "type": "file"
+    },
+    {
+      "path": "var/jb/Library/MobileSubstrate/DynamicLibraries/TheseusMenu.plist",
+      "size": 302,
+      "mode": "0o644",
+      "type": "file"
+    },
+    {
+      "path": "var/jb/usr",
+      "size": 0,
+      "mode": "0o755",
+      "type": "directory"
+    },
+    {
+      "path": "var/jb/usr/share",
+      "size": 0,
+      "mode": "0o755",
+      "type": "directory"
+    },
+    {
+      "path": "var/jb/usr/share/doc",
+      "size": 0,
+      "mode": "0o755",
+      "type": "directory"
+    },
+    {
+      "path": "var/jb/usr/share/doc/com.banshengnianhua.theseusmenu",
+      "size": 0,
+      "mode": "0o755",
+      "type": "directory"
+    },
+    {
+      "path": "var/jb/usr/share/doc/com.banshengnianhua.theseusmenu/Theseus-LICENSE",
+      "size": 10763,
+      "mode": "0o644",
+      "type": "file"
+    },
+    {
+      "path": "var/jb/usr/share/doc/com.banshengnianhua.theseusmenu/Theseus-NOTICE",
+      "size": 122,
+      "mode": "0o644",
+      "type": "file"
+    },
+    {
+      "path": "var/jb/usr/share/doc/com.banshengnianhua.theseusmenu/Theseus-UPSTREAM.json",
+      "size": 153,
+      "mode": "0o644",
+      "type": "file"
+    }
+  ],
+  "control_members": [
+    {
+      "path": "control",
+      "size": 362,
+      "mode": "0o644",
+      "type": "file"
+    },
+    {
+      "path": "md5sums",
+      "size": 514,
+      "mode": "0o644",
+      "type": "file"
+    },
+    {
+      "path": "postinst",
+      "size": 152,
+      "mode": "0o755",
+      "type": "file"
+    }
+  ],
+  "preference_keys": [],
+  "always_enabled": true
+}

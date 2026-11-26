@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "sources": {
+    "swift": [
+      "src/MenuBridge.swift"
+    ],
+    "core": [
+      "src/Tweak.m"
+    ]
+  },
+  "native_build_executed": false,
+  "device_validation_executed": false
+}

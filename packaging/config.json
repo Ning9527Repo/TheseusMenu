@@ -1,0 +1,33 @@
+{
+  "name": "编辑菜单",
+  "package": "com.banshengnianhua.theseusmenu",
+  "version": "1.0",
+  "author": "半生年华",
+  "repository": "https://github.com/valzevul/Theseus",
+  "deployment": "16.0",
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "QuartzCore",
+    "CoreGraphics"
+  ],
+  "variants": {
+    "arm64": {
+      "architecture": "iphoneos-arm64",
+      "scheme": "rootless",
+      "prefix": "var/jb",
+      "subtype": 0,
+      "depends": "firmware (>= 16.0), mobilesubstrate"
+    },
+    "arm64e": {
+      "architecture": "iphoneos-arm64e",
+      "scheme": "roothide",
+      "prefix": "",
+      "subtype": 2147483650,
+      "depends": "firmware (>= 16.0), mobilesubstrate, roothide (>= 0.0.1)"
+    }
+  },
+  "source_baseline": "TheseusMenu 0.2.6 Adaptive",
+  "maintainer": "半生年华",
+  "description": "如题"
+}

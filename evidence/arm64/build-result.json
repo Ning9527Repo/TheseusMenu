@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "variant": "arm64",
+  "smoke": false,
+  "target": "arm64-apple-ios16.0",
+  "package": {
+    "file": "com.banshengnianhua.theseusmenu_1.0_iphoneos-arm64.deb",
+    "bytes": 64946,
+    "sha256": "acf4f08a6b1b7d1ae6e2857bbc2886ee3b52a022c3ab09d4149a21dd2814defb",
+    "format": "ar/debian2.0+ustar+gzip",
+    "source_date_epoch": 0
+  },
+  "elapsed_seconds": 5.907
+}
